@@ -1,0 +1,52 @@
+.btn--light-blue {
+  background: $light-blue;
+  color: #fff;
+}
+.btn--tab:active,
+.btn--tab:focus {
+  box-shadow: none;
+  outline: none;
+  border-width: 1px 1px 0 1px;
+  border-color: $off-white;
+}
+.btn--icon {
+  background: transparent;
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+  i {
+    font-size: 2rem;
+  }
+}
+.btn__notification {
+  position: absolute !important;
+  left: 2rem;
+  top: -0.8rem !important;
+}
+.btn--overlay {
+  font-size: 1.4rem;
+  margin-top: 10rem;
+  opacity: 0;
+}
+.footer__subscribe-button {
+  width: 39%;
+  background-color: $dark-blue;
+  border: none;
+  border: 1px solid $yellow;
+  color: #fff;
+}
+.footer__subscribe-button:active,
+.footer__subscribe-button:focus {
+  box-shadow: 0 0 5px lighten($yellow, 5%);
+}
+.footer__subscribe-button:hover {
+  background-color: $yellow;
+}
+.footer__scrollTop {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  i {
+    font-size: 2.5rem;
+  }
+}

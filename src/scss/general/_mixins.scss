@@ -1,0 +1,33 @@
+/*inside _mixins*/
+/* media query */
+@mixin mediaQuery($screen: "", $min: 0, $max: 0, $fixed: true) {
+  //required vars must be at first
+  @if $fixed {
+    @if $screen == "xs" {
+      @media (max-width: 575px) {
+        @content;
+      }
+    } @else if $screen == "sm" {
+      @media (min-width: 576px) {
+        @content;
+      }
+    } @else if $screen == "md" {
+      @media (min-width: 768px) {
+        @content;
+      }
+    } @else if $screen == "lg" {
+      @media (min-width: 992px) {
+        @content;
+      }
+    } @else if $screen == "xl" {
+      @media (min-width: 1200px) {
+        @content;
+      }
+    }
+  } @else {
+    @media (min-width: $min) and (max-width: $max) {
+      @content;
+    }
+  }
+}
+/*End of mediaQuery*/

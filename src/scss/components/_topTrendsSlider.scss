@@ -1,0 +1,49 @@
+.top-trends {
+  background-color: #fff;
+  margin-bottom: $sections-margin;
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-image: none;
+
+    font-size: 4rem;
+    color: #000;
+  }
+
+  .carousel-control-next {
+    right: -3%;
+  }
+  .carousel-control-prev {
+    left: -4%;
+  }
+}
+.top-trends__title {
+  color: $dark-blue;
+  text-transform: uppercase;
+  border-bottom: 0.5rem solid $dark-blue;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+}
+.carousel-itme__row {
+  padding: 0 10%;
+  margin: 10rem auto;
+}
+.card__buttons-container {
+  .buy-button {
+    padding: 0.5rem 3rem;
+    font-size: 1.4rem;
+    width: 75%;
+    background: $light-blue;
+    color: #fff;
+  }
+  .fav-button {
+    padding: 0.5rem 1rem;
+    width: 20%;
+    font-size: 1.4rem;
+    background: transparent;
+    border: 0.1rem solid $off-white;
+    display: flex;
+    justify-content: center;
+  }
+  padding-bottom: 1rem;
+
+}

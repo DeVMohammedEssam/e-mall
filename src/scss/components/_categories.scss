@@ -1,0 +1,26 @@
+.categories {
+  margin: $sections-margin 0;
+  margin-top: 15rem;
+}
+.img-card--box__moreButton {
+  position: relative;
+  display: flex;
+  color: darken($off-white, 30%);
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  height: 100%;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  h1 {
+    font-size: 5rem;
+  }
+  &:hover {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+}
+.img-card__title {
+  margin-top: 1rem;
+  color: darken($off-white, 35%);
+}

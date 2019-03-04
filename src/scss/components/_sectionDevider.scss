@@ -1,0 +1,14 @@
+.section-devider {
+  display: flex;
+  justify-content: space-between;
+}
+.section-devider__devide-line {
+  background-color: $dark-blue;
+  width: (85% /2);
+  height: 0.1rem;
+}
+.section-devider__title {
+  color: $dark-blue;
+  margin-top: -$sections-margin/2;
+  font-weight: 700;
+}

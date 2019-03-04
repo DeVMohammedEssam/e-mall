@@ -1,0 +1,61 @@
+.subnav {
+  background-color: #fff;
+  padding: 2rem 0;
+  width: 100%;
+
+  .dropdown-menu {
+    font-size: 1.3rem;
+    width: 150%;
+    .dropdown-item {
+      color: darken($off-white, 50%);
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    .dropdown-item:not(:first-of-type) {
+      &:active,
+      &:hover {
+        color: #fff;
+        background-color: $light-blue;
+      }
+    }
+  }
+}
+.subnav__form-group__input {
+  &:active,
+  &:focus {
+    box-shadow: 0 0 5px $light-blue;
+  }
+}
+.dropdown__register__link {
+  font-size: 1.2rem;
+}
+.dropdown__register__login {
+  font-size: 1.4rem;
+}
+.subnav__user-dropdown-icons {
+  position: absolute;
+  right: 0.8rem;
+  bottom: -0.6rem;
+  font-size: 1rem;
+  i {
+    font-size: 1rem !important;
+  }
+}
+.dropdown__badge {
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}
+.subnav--shadow-bottm {
+  position: fixed;
+  box-shadow: -1px 0 5px;
+  top: 0;
+  z-index: 99999;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+  transition: opacity 1s ease;
+}
+.subnav--shadow-bottm:hover {
+  opacity: 1;
+  transition: all 0.2s ease;
+  transition: opacity 1s ease;
+}

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+  background: $body-color;
+}
+.position-relative {
+  position: relative;
+}
+.container {
+  max-width: 90% !important;
+}
+.hidden-text {
+  display: none;
+}
+.bg-white {
+  background: #fff;
+}
+.fa-star {
+  color: darken($off-white, 20%);
+}
+.fav-selected {
+  color: $yellow !important;
+}
+

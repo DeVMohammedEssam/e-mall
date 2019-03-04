@@ -1,0 +1,14 @@
+.computers {
+  margin: $sections-margin 0;
+}
+.computers__seemore-row {
+  margin-top: -($sections-margin - 1);
+  margin-bottom: ($sections-margin/4);
+}
+.computers__small-card {
+  background: #fff;
+}
+.computers__big-card {
+  padding: 5rem 2rem 0 2rem;
+  height: 100%;
+}
