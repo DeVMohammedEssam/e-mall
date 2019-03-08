@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "./Card";
+import { trackWindowScroll } from "react-lazy-load-image-component";
 class Slider extends Component {
   state = {
     cardImg: [
@@ -169,4 +170,4 @@ class Slider extends Component {
   }
 }
 
-export default Slider;
+export default trackWindowScroll(Slider);

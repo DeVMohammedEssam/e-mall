@@ -7,11 +7,15 @@ import SectionDevider from "../layout/SectionDevider";
 import Computers from "../layout/Computers";
 import Footer from "../layout/Footer";
 import Mobiles from "../layout/Mobiles";
-import { trackWindowScroll } from "react-lazy-load-image-component";
+
 import $ from "jquery";
 class Home extends Component {
   state = {};
   componentDidMount() {
+    setTimeout(() => {
+      document.querySelector(".loader-container").style.display = "none";
+    }, 1500);
+
     $(function() {
       /*favourite button color on click */
       $(".fav-button").on("click", function() {
@@ -52,4 +56,4 @@ class Home extends Component {
   }
 }
 
-export default trackWindowScroll(Home);
+export default Home;

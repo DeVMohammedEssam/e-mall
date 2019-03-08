@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import LazyLodedImg from "./lazyLodedImg";
+
 class BigCard extends Component {
   state = {
     more_less: "read more",

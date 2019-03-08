@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "./slider";
+import { trackWindowScroll } from "react-lazy-load-image-component";
 const TopTrendSlider = () => {
   return (
     <section className="top-trends pt-4">
@@ -12,4 +13,4 @@ const TopTrendSlider = () => {
   );
 };
 
-export default TopTrendSlider;
+export default trackWindowScroll(TopTrendSlider);

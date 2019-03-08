@@ -1,6 +1,7 @@
 import React from "react";
 import BigCard from "./BigCard";
 import SmallCard from "./SmallCard";
+import { trackWindowScroll } from "react-lazy-load-image-component";
 const Mobiles = () => {
   return (
     <section className="computers">
@@ -28,4 +29,4 @@ const Mobiles = () => {
   );
 };
 
-export default Mobiles;
+export default trackWindowScroll(Mobiles);

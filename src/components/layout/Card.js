@@ -27,7 +27,7 @@ const Card = ({ cardType, cardImgSrc, title, hasOverlay, hasButtons }) => {
           <div className="card__buttons-container ">
             <button className="btn buy-button ">Buy now</button>
             <button className="btn fav-button">
-              <i class="fas fa-star star-icon" />
+              <i className="fas fa-star star-icon" />
             </button>
           </div>
         )}
